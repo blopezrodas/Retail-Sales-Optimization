@@ -3,3 +3,6 @@
 
 # JupyterLab virtual documents
 .virtual_documents/
+
+# Dataset
+SuperStore.csv

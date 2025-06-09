@@ -4,7 +4,7 @@
 
 
 ## Overview/Problem Statement
-Superstore is a fictional national retail company. In this project, I developed a comprehensive Power BI dashboard for a fictional national retail chain to deliver actionable insights on sales performance, customer behavior, and product profitability. The primary goal was to create an executive-level tool that enables data-driven decisions around growth strategies, marketing investment, and inventory planning.
+Superstore is a fictional national retail company. I was hired as a Data Analyst to optimize sales performance. My task was to identify actionable insights into revenue drivers, regional opportunities, product trends, and customer segments. Using a real-world sales dataset, I performed end-to-end analysis — from data cleaning in Python to delivering a fully interactive Power BI dashboard.
 
 
 ## Business Questions:
@@ -31,7 +31,10 @@ Superstore is a fictional national retail company. In this project, I developed 
 
 
 ## Data
-The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
+The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final). It consists of 9993 sales transactions from January 2014 to December 2017. It includes detailed information on orders, products, customers, shipping, and regions, with key variables such as order date, sales, profit, quantity, discount, product category, customer segment, and geographic location.
+
+## Data Cleaning
+The raw Superstore dataset was cleaned and prepared using Python in a Jupyter notebook. This involved correcting data types (especially for date fields), standardizing categorical entries, and removing duplicates. The cleaned dataset was then exported as a CSV and imported into Power BI, where additional features such as order month/year, profit margin, and customer-level aggregations were created to support deeper analysis and visualization. The cleaned dataset "SuperStore_cleaned.csv" is available in my Github repository.
 
 ## Executive Summary
 
@@ -40,3 +43,4 @@ The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/vivek468/
 ## Product Performance
 
 ## Customer Segment Analysis
+

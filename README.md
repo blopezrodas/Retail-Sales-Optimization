@@ -8,24 +8,35 @@ Superstore is a fictional national retail company. In this project, I developed 
 
 
 ## Business Questions:
-- Are sales growing/stalling?
-- Which products drive the most profit?
-- Are there products that are frequently bought together?
-- Where should the marketing budget be focused?
-- Which customer segments should we target more?
-- Are our marketing campaigns yielding positive ROI?
-- How to increase profit margins across stores and products?
-- What are the Key Performance Indicators (KPIs)?
+#### Executive Summary
+- How is the business performing in terms of sales and profit?
+- Are sales and profits increasing or declining month-over-month (MoM) and year-over-year (YoY)?
+- How is the business performing this period compared to previous periods?
+
+#### Regional Analysis
+- Which regions, states, and cities generate the most revenue and profit?
+- Are there regions/states/cities with high sales but low profitability?
+- Where should we focus sales efforts or cost optimization?
+
+#### Product Performance
+- Which product categories and sub-categories contribute most revenue and profit?
+- Are there low-margin or underperforming products?
+- What are the trends in product demand?
+
+#### Customer Segment Analysis
+- Who are our most valuable customers?
+- How often do customers purchase, and how much do they typically spend?
+- What is the average customer’s lifetime value (CLTV)?
+- Which customers are at risk of churning?
+
 
 ## Data
 The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final).
 
-## High-Level KPIs
+## Executive Summary
 
 ## Regional Insights
 
 ## Product Performance
 
 ## Customer Segment Analysis
-
-## Marketing ROI Module

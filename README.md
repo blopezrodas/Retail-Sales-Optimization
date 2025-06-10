@@ -1,6 +1,6 @@
 # Retail Sales Optimization Dashboard – Executive Insights for Strategic Growth
 
-### Dashboard Link :
+### Link : https://app.powerbi.com/links/poM0pNgcVy?ctid=e85c5307-76b1-4c48-bc5d-e88373dda261&pbi_source=linkShare&bookmarkGuid=904306d6-4cda-4247-b63b-87c6a78251d7
 
 
 ## Overview/Problem Statement
@@ -37,10 +37,41 @@ The dataset was obtained from [Kaggle](https://www.kaggle.com/datasets/vivek468/
 The raw Superstore dataset was cleaned and prepared using Python in a Jupyter notebook. This involved correcting data types (especially for date fields), standardizing categorical entries, and removing duplicates. The cleaned dataset was then exported as a CSV and imported into Power BI, where additional features such as order month/year, profit margin, and customer-level aggregations were created to support deeper analysis and visualization. The cleaned dataset "SuperStore_cleaned.csv" is available in my Github repository.
 
 ## Executive Summary
+![Image](https://github.com/user-attachments/assets/34337dcd-d081-47b3-be4c-fcc1ff4f4be4)
+
+#### KPIs
+#### Total Sales by Region
+#### Total Sales by Segment
+#### Total Profit by Region
+#### Total Profit by Segment
+#### Sales Trends
+#### Profit Margin Trends
 
 ## Regional Insights
+![Image](https://github.com/user-attachments/assets/e7f54d80-c81a-4bf5-adbc-60b4fe435f7a)
+
+#### Total Sales by Region
+#### Profit Margin % by Region
+#### Total Sales by Region over Time
+#### Total Sales by State
+#### Top 15 Cities by Total Sales
 
 ## Product Performance
+![Image](https://github.com/user-attachments/assets/cc94fe44-82ea-41a2-88ea-95ab40cafde8)
+
+#### KPIs
+#### Total Sales Category
+#### Total and Cumulative Sales by Product
+#### Sales Trend of Top 20% Products over Time
+#### Top 10 Products by Revenue
 
 ## Customer Segment Analysis
+![Image](https://github.com/user-attachments/assets/a653c42e-61dc-4ae8-aa43-4016055df0e1)
+
+#### KPIs
+#### Total Sales by Segments
+#### RFM Segments
+#### Churn Risk
+#### Total Customers by RFM Segment and Churn Risk
+#### Top 15 Customers by CLTV
 

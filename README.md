@@ -93,10 +93,39 @@ This page evaluates product-level sales and profitability to identify bestseller
 ## Customer Segment Analysis
 ![Image](https://github.com/user-attachments/assets/a653c42e-61dc-4ae8-aa43-4016055df0e1)
 
-#### KPIs
-#### Total Sales by Segments
-#### RFM Segments
-#### Churn Risk
-#### Total Customers by RFM Segment and Churn Risk
-#### Top 15 Customers by CLTV
+This page analyzes customer segments to identify high-value buyers, purchasing patterns, and churn risk, enabling targeted retention and growth strategies.
+
+The RFM segments are defined as:
+- New customer: Customers just started, likely no clear patterns yet.
+- Champions: High frequency, recent activity, and high value = your best customers.
+- Loyal: Consistent purchasers even if not highest spenders or recent.
+- Low Value: Low monetary contribution, might need nurturing or upselling.
+- Regular: Everyone else
+
+The Churn Risk segments are defined as:
+- New customer: Customers just started, likely no clear patterns yet.
+- Active: Customers who have made a recent purchase.
+- At Risk: Customers who haven't purchased in a while.
+- Churched: Customers who haven't purchased in such a long time that they are considred "long gone".
+
+#### Business Questions Answered
+- Who are our most valuable customers?
+
+  The RFM analysis categorizes 31 customers as "Champions" and 128 customers as "Loyal".
+  The top 15 customers, identified using Customer Lifetime Value (CLTV), contribute a significant share of revenue and profit. Notably, the top 15 of customers drive ~10% of total sales, emphasizing the importance of retention strategies for this group. Among these customers, only 4 are classified as Champions and 2 as Loyal, while the majority (9) fall into the Regular RFM segment — suggesting that high monetary value can exist even outside traditionally loyal segments. Despite high sales contributions, 2 of these top customers operate at a loss (with profit margins of -7.91% and -14.08%), highlighting the importance of balancing acquisition with profitability. Profit margins across this group vary widely — from as low as -14.08% to as high as 47.14% — suggesting that CLTV alone does not guarantee profitability and should be analyzed alongside margin data.
+
+- How often do customers purchase, and how much do they typically spend?
+
+  Across all customers, the average order valua is $459, the average purchase frequency is 6 orders per year, and the average customer lifespan is 2.7 years.
+
+- What is the average customer’s lifetime value (CLTV)?
+
+  CLTV = Avg Order Value × Frequency (Annual) × Lifespan (years)
+  
+  The average customer's lifetime value is $7,835.
+
+- Which customers are at risk of churning?
+
+  The Churn Risk analysis categorizes 436 customers as "Active", 258 customers as "At Risk", and 99 as "Churched".
+  Among the top 15 customers by CLTV, 5 are at risk, and 1 has already churned, highlighting the urgency of targeted retention efforts to protect high-value relationships and prevent potential revenue loss.
 

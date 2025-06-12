@@ -39,13 +39,22 @@ The raw Superstore dataset was cleaned and prepared using Python in a Jupyter no
 ## Executive Summary
 ![Image](https://github.com/user-attachments/assets/34337dcd-d081-47b3-be4c-fcc1ff4f4be4)
 
-#### KPIs
-#### Total Sales by Region
-#### Total Sales by Segment
-#### Total Profit by Region
-#### Total Profit by Segment
-#### Sales Trends
-#### Profit Margin Trends
+This page provides a high-level summary of overall business performance, including sales trends, profitability, and customer acquisition metrics, helping stakeholders assess growth and strategic positioning.
+
+#### Business Questions Answered
+- How is the business performing in terms of sales and profit?
+
+  The business has generated $2.3M in total sales and $286K in total profit, resulting in a healthy profit margin of 12.43%. These high-level metrics indicate strong overall financial health.
+
+- Are sales and profits increasing or declining month-over-month (MoM) and year-over-year (YoY)?
+
+  The year-over-year growth percent for 2015, 2016, and 2017 was -2.8%, 29.5%, 20.4%, respectively, indicating accelerating growth after an initial decline.
+  
+  The line charts comparing current vs. last month and last year for both total sales and profit margin % reveal seasonal fluctuations and help identify upward or downward trends in both short-term (MoM) and long-term (YoY) performance.
+  
+- How is the business performing this period compared to previous periods?
+
+  Sales and profit margin trends show steady improvement over time, with clear seasonal patterns and monthly benchmarks provided for comparison.
 
 ## Regional Insights
 ![Image](https://github.com/user-attachments/assets/e7f54d80-c81a-4bf5-adbc-60b4fe435f7a)
